@@ -1,4 +1,4 @@
-# ESP8266-GPS-Tracker-MQTT
+# ESP8266-GPS-Tracker-Thingspeak
 
 This tutorial demonstrates how to use the ESP8266 with a GPS module to send location data (latitude and longitude) to ThingSpeak over Wi-Fi.
 

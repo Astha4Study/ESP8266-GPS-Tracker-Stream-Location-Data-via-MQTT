@@ -7,8 +7,8 @@
 TinyGPSPlus gps;
 #define GPS_BAUDRATE 9600
 
-// Initialize SoftwareSerial for GPS on D6 (TX) and D5 (RX)
-SoftwareSerial gpsSerial(D5, D6); // RX, TX
+// Initialize SoftwareSerial for GPS on D6 (RX) and D5 (TX)
+SoftwareSerial gpsSerial(D5, D6); // TX, RX
 
 String lat_data, lng_data;
 

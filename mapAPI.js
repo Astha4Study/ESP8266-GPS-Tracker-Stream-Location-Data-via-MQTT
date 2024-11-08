@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Function to fetch data from the API
 function fetchData() {
   // Replace 'YOUR_API_ENDPOINT' with the actual API endpoint
-  var apiUrl = 'https://api.thingspeak.com/channels/2734969/feeds/last.json?timezone=Asia%2FJakarta&api_key=L1UTZJ0ZKDA8K5ZH';
+  var apiUrl = 'https://api.thingspeak.com/channels/yourChannelId/feeds/last.json?timezone=Asia%2FJakarta&api_key=yourAPIKeys';
 
   // Fetch data from the API
   fetch(apiUrl)

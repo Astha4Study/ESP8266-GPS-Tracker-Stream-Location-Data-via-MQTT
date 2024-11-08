@@ -21,4 +21,4 @@ This tutorial demonstrates how to use the ESP8266 with a GPS module to send loca
 4. To get the API Key, go to the API Keys section in your ThingSpeak account and paste the Write API Key into myWriteAPIKey in the code.
 
 ### Setting up JavaScript
-1. Copy the Channel ID and API keys into (https://api.thingspeak.com/channels/yourChannelID/feeds/last.json?timezone=Asia%2FJakarta&api_key=yourApiKeys) in the mapAPI.js code.
+1. Copy the Channel ID and API keys into apiURL in the mapAPI.js code.

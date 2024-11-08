@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    margin-top: 2px;
+}
+
+#map {
+    height: 580px;
+}
+
+p {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6;
+    color: #666666 ;
+}
+
+p b {
+    font-weight: 800;
+    color: #333333;
+}
+
+p h4 {
+    color: #333333;
+}
+
+p ul li {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6;
+    color: #666666 ;
+}
